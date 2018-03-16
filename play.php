@@ -10,7 +10,7 @@
     //var_dump($client);
     $result = $client->synthesis('磅礴', 'zh', 1, array(
         'vol' => 5,
-        'spd' => 0,
+        'spd' => 1,
         'per' => 5,
     ));
     //var_dump($result);
